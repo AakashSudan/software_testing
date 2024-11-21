@@ -23,6 +23,6 @@ jobs:
 
     - name: Run Selenium Test
       env:
-        USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
-        ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
+        USERNAME: ${{ secrets."aakashsudan_TAoinU"}}
+        ACCESS_KEY: ${{ secrets."y94jj1sqpnuHfUFgDady" }}
       run: jupyter nbconvert --to notebook --execute --output executed_notebook.ipynb TESTwithCI.ipynb
